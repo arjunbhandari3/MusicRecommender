@@ -43,6 +43,7 @@ python app.py
 
 #### React
 
+Make sure you have Node.js installed with latest LTS version.
 <br />
 
 1. Install required packages
