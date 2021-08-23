@@ -1,7 +1,7 @@
-import requests
-import json
-import pandas as pd
 import time
+
+import pandas as pd
+import requests
 
 CLIENT_ID = "50179b9e0a064ad09ffb159682151c22"
 CLIENT_SECRET = "839cf55128424188bdae3d1083921ecf"

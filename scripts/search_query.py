@@ -1,5 +1,5 @@
 import pandas as pd
-from scripts import spotify_api
+
 
 def query(param):
     """

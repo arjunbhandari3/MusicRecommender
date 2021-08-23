@@ -1,7 +1,7 @@
-import pandas as pd
-import numpy as np
-from scripts import spotify_api
 import random
+
+import pandas as pd
+
 
 def send_results():
     """
