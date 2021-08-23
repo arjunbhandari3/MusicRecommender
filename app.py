@@ -1,8 +1,9 @@
-from flask import Flask, request, jsonify
-from flask_restful import Api, Resource
+from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
+from flask_restful import Api, Resource
+
+from scripts import recoms, search_query
 from scripts.show_random import send_results
-from scripts import search_query, recoms
 
 app = Flask(__name__)
 app.config['CORS_HEADERS'] = 'Content-Type'
